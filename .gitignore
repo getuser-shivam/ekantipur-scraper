@@ -1,0 +1,18 @@
+# Environment
+.venv/
+__pycache__/
+
+# Test & Debug files
+*.html
+test_*.py
+test_*.json
+ekantipur.html
+ekantipur_dynamic.html
+
+# We want to keep
+!output.json
+!prompts.txt
+!scraper.py
+!pyproject.toml
+!uv.lock
+!.python-version

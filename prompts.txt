@@ -1,0 +1,13 @@
+# AI Prompts Used During Development (Cursor IDE)
+
+## Prompt 1: Project Setup & Planning
+"Analyze the Audio Bee web scraping intern take-home test requirements. Set up the project using uv as the package manager, install Playwright, and plan the scraping approach for ekantipur.com."
+
+## Prompt 2: Selector Discovery
+"Inspect the Ekantipur entertainment section (https://ekantipur.com/entertainment) and homepage to identify the correct CSS selectors for extracting the top 5 entertainment news articles (title, image_url, category, author) and the Cartoon of the Day (title, image_url, author)."
+
+## Prompt 3: Scraper Implementation
+"Write a Playwright synchronous Python script (scraper.py) that navigates to the entertainment section, extracts the top 5 articles using the identified selectors (.category-inner-wrapper, .category-description h2, .author-name, .category-image img), then navigates to the homepage to extract the Cartoon of the Day from the .cartoon-slider section. Save the output as JSON with UTF-8 encoding for Nepali text."
+
+## Prompt 4: Error Handling & Polish
+"Add try/except error handling for missing elements, handle lazy-loaded images by checking both data-src and src attributes, and ensure the output.json uses ensure_ascii=False to preserve Nepali characters correctly."
